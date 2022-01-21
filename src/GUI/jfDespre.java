@@ -58,7 +58,6 @@ public class jfDespre extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jbIesireActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbIesireActionPerformed
-        // TODO add your handling code here:
         dispose();
     }//GEN-LAST:event_jbIesireActionPerformed
 
