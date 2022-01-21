@@ -218,7 +218,6 @@ public class dlgAdaugareContact extends javax.swing.JDialog {
     }//GEN-LAST:event_bAcceptActionPerformed
 
     private void bCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bCancelActionPerformed
-        // TODO add your handling code here:
         contactMemorat = null;
         setbContactCreat(false);
         dispose();
