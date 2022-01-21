@@ -189,7 +189,6 @@ public class dlgAdaugareContact extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void bAcceptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAcceptActionPerformed
-        // TODO add your handling code here:
         contactMemorat = Contact.getInstance(tfNume.getText(), tfPrenume.getText(), tfDob.getText(), tfTelefon.getText());
         String ePattern = "^(0[1-9]|[12][0-9]|3[01])[- \\.](0[1-9]|1[012])[- \\.](19|20)\\d\\d$";
         Pattern pat = Pattern.compile(ePattern);
