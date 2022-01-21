@@ -35,8 +35,9 @@ public class Agenda implements Serializable {
                 return (p1, p2) -> p1.getPrenume().compareToIgnoreCase(p2.getPrenume());
             case xOrdonareTel:
                 return (p1, p2) -> p1.getNrTelefon().compareToIgnoreCase(p2.getNrTelefon());
-            default:
             case xOrdonareData:
+                return (p1, p2) -> p1.getDataNasterii().compareToIgnoreCase(p2.getDataNasterii());
+            default:
                 return (p1, p2) -> p1.getDataNasterii().compareToIgnoreCase(p2.getDataNasterii());
         }
     }
